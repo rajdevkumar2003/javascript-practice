@@ -9,6 +9,8 @@ console.log(endDate-startDate);
 
 let diff=(endDate-startDate)/1000;
 
+if(diff<0)return;
+
 let days=diff/3600/24;
 // console.log(Math.floor(days));
 let hours=(diff/3600)%24;
